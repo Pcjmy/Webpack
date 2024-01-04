@@ -5,14 +5,28 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
+    search: './src/search.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
   },
   plugins: [
+    // 单入口
+    // new HtmlWebpackPlugin({
+    //   template: './index.html',
+    // })
+
+    // 多入口
     new HtmlWebpackPlugin({
       template: './index.html',
+      filename: 'index.html',
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './search.html',
+      filename: 'search.html',
+      chunks: ['search'],
     })
   ]
 };
