@@ -22,6 +22,14 @@ module.exports = {
       template: './index.html',
       filename: 'index.html',
       chunks: ['index'],
+      minify: {
+        // 删除注释
+        removeComments: true,
+        // 删除空格
+        collapseWhitespace: true,
+        // 删除html标签属性值的双引号
+        removeAttributeQuotes: true,
+      }
     }),
     new HtmlWebpackPlugin({
       template: './search.html',
