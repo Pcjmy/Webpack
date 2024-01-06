@@ -29,6 +29,7 @@ module.exports = {
           options: {
             name: 'img/[name].[ext]',
             esModule: false,
+            // 小于10KB的图片转换为base64
             limit: 10000,
           }
         }
