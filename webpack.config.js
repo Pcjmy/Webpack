@@ -25,6 +25,17 @@ module.exports = {
       {
         test: /\.(jpg|png|gif)$/,
         use: {
+          loader: 'url-loader',
+          options: {
+            name: 'img/[name].[ext]',
+            esModule: false,
+            limit: 10000,
+          }
+        }
+      },
+      {
+        test: /\.(jpg|png|gif)$/,
+        use: {
           loader: 'file-loader',
           options: {
             name: 'img/[name].[ext]',

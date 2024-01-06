@@ -91,9 +91,9 @@
   !*** ./src/img/logo.png ***!
   \**************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("module.exports = __webpack_require__.p + \"img/logo.png\";\n\n//# sourceURL=webpack:///./src/img/logo.png?");
+eval("module.exports = \"data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvbG9nby5wbmciOw==\"\n\n//# sourceURL=webpack:///./src/img/logo.png?");
 
 /***/ }),
 
