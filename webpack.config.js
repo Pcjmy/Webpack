@@ -28,9 +28,14 @@ module.exports = {
           loader: 'file-loader',
           options: {
             name: 'img/[name].[ext]',
+            esModule: false,
           },
         },
       },
+      {
+        test: /\.(htm|html)$/,
+        loader: 'html-withimg-loader',
+      }
     ]
   },
   plugins: [

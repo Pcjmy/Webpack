@@ -1,5 +1,9 @@
 body {
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
+  background-color: red;
+}
+
+img {
+  height: 100px;
+  width: 100px;
 }
 
