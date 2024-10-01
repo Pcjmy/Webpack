@@ -22,18 +22,18 @@ module.exports = {
           }
         }, 'css-loader'],
       },
-      {
-        test: /\.(jpg|png|gif)$/,
-        use: {
-          loader: 'url-loader',
-          options: {
-            name: 'img/[name].[ext]',
-            esModule: false,
-            // 小于10KB的图片转换为base64
-            limit: 10000,
-          }
-        }
-      },
+      // {
+      //   test: /\.(jpg|png|gif)$/,
+      //   use: {
+      //     loader: 'url-loader',
+      //     options: {
+      //       name: 'img/[name].[ext]',
+      //       esModule: false,
+      //       // 小于10KB的图片转换为base64
+      //       limit: 10000,
+      //     }
+      //   }
+      // },
       {
         test: /\.(jpg|png|gif)$/,
         use: {
@@ -47,6 +47,10 @@ module.exports = {
       {
         test: /\.(htm|html)$/,
         loader: 'html-withimg-loader',
+      },
+      {
+        test: /\.imooc$/,
+        use: [path.resolve(__dirname, './loader/imooc-loader.js')]
       }
     ]
   },

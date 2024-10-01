@@ -91,9 +91,9 @@
   !*** ./src/img/logo.png ***!
   \**************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = \"data:image/png;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJpbWcvbG9nby5wbmciOw==\"\n\n//# sourceURL=webpack:///./src/img/logo.png?");
+eval("module.exports = __webpack_require__.p + \"img/logo.png\";\n\n//# sourceURL=webpack:///./src/img/logo.png?");
 
 /***/ }),
 
@@ -116,7 +116,19 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/logo.png */ \"./src/img/logo.png\");\n/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_img_logo_png__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\n\r\nconsole.log(_img_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a);\r\n\r\nconst imgElem = document.createElement('img');\r\nimgElem.src = _img_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a;\r\ndocument.body.appendChild(imgElem);\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/logo.png */ \"./src/img/logo.png\");\n/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_img_logo_png__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _test_imooc__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./test.imooc */ \"./src/test.imooc\");\n\r\n\r\n\r\n\r\nconsole.log(_img_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a);\r\nconsole.log(_test_imooc__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\r\n\r\nconst imgElem = document.createElement('img');\r\nimgElem.src = _img_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a;\r\ndocument.body.appendChild(imgElem);\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/test.imooc":
+/*!************************!*\
+  !*** ./src/test.imooc ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n\r\n  /* harmony default export */ __webpack_exports__[\"default\"] = ({\r\n    a: 1,\r\n    b: 2,\r\n  });\r\n\n\n//# sourceURL=webpack:///./src/test.imooc?");
 
 /***/ })
 
