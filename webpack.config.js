@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const FooterPlugin = require('./plugin/FooterPlugin');
 
 module.exports = {
   mode: 'development',
@@ -50,6 +51,9 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: 'css/[name].css',
+    }),
+    new FooterPlugin({
+      banner: 'FooterPlugin',
     })
   ]
 };
