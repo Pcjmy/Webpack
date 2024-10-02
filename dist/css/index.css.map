@@ -1,0 +1,1 @@
+{"version":3,"file":"css/index.css","mappings":"AAAA;EACE,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,YAAY;AACd","sources":["webpack://webpack-init/index.css"],"sourcesContent":["body {\r\n  background-color: red;\r\n}\r\n\r\nimg {\r\n  height: 100px;\r\n  width: 100px;\r\n}\r\n"],"names":[],"sourceRoot":""}

@@ -5,6 +5,7 @@ const FooterPlugin = require('./plugin/FooterPlugin');
 
 module.exports = {
   mode: 'development',
+  devtool: 'source-map',
   entry: {
     index: './src/index.js',
   },
